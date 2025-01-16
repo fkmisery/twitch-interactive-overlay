@@ -148,7 +148,7 @@ export default class UserSprite extends BaseSprite {
 
     this.type = 'user';
     // Default character type
-    this.changeCharacter(SNOWMAN);
+    this.changeCharacter(any);
 
     this.user = config.user;
     this.flags = config.flags;
